@@ -1,0 +1,30 @@
+{
+  "name": "react-picker-single",
+  "version": "1.0.0",
+  "description": "react移动端单项滑动选择组件",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvxue-shirly/react-picker-single.git"
+  },
+  "keywords": [
+    "react",
+    "picker"
+  ],
+  "author": "lvxuer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lvxue-shirly/react-picker-single/issues"
+  },
+  "homepage": "https://github.com/lvxue-shirly/react-picker-single#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

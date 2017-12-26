@@ -1,2 +1,2 @@
 # react-picker-single
-react移动端单项滑动选择组建
+react移动端单项滑动选择组件

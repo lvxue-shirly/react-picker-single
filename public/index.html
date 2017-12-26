@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="format-detection" content="address=no;">
+    <title>移动端react单项滑动选择</title>
+    <script type="text/javascript">
+        (function(d,e){var i=d.document;var a=i.documentElement;var j=0;var c;var f=e.flexible||(e.flexible={});var b=d.navigator.appVersion.match(/iphone/gi);var h=d.devicePixelRatio;if(b){if(h>=3&&(!j||j>=3)){j=3}else{if(h>=2&&(!j||j>=2)){j=2}else{j=1}}}else{j=1}a.setAttribute("data-dpr",j);if(i.readyState==="complete"){i.body.style.fontSize=12+"px"}else{i.addEventListener("DOMContentLoaded",function(){i.body.style.fontSize=12+"px"},false)}function g(){var l=a.getBoundingClientRect().width;var m=l/10;a.style.fontSize=m+"px";f.rem=d.rem=m}var k="onorientationchange" in window?"orientationchange":"resize";d.addEventListener(k,function(){clearTimeout(c);c=setTimeout(g,300)},false);d.addEventListener("pageshow",function(l){if(l.persisted){clearTimeout(c);c=setTimeout(g,300)}},false);g();f.dpr=d.dpr=j;f.refreshRem=g;f.rem2px=function(m){var l=parseFloat(m)*this.rem;if(typeof m==="string"&&m.match(/rem$/)){l+="px"}return l};f.px2rem=function(m){var l=parseFloat(m)/this.rem;if(typeof m==="string"&&m.match(/px$/)){l+="rem"}return l}})(window,window["lib"]||(window["lib"]={}));
+    </script>
+
+  </head>
+  <body style="font-size:12px;">
+    <div id="root" class="root"></div>
+  </body>
+</html>
